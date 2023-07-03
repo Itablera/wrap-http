@@ -1,17 +1,14 @@
 {
-  "name": "@pjore/http-server",
+  "name": "@itablera/http-server",
   "version": "0.7.14",
-  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
-  "main": "src/index",
-  "types": "src/index",
+  "description": "Wrapper for a HTTP server",
+  "main": "dist/index",
+  "types": "dist/index",
   "files": [
-    "src"
+    "dist"
   ],
   "repository": {
     "url": "https://github.com/Itablera/wrap-http.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
@@ -21,8 +18,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@itablera/wrap-command": "git+ssh://git@github.com:Itablera/wrap-command.git#main",
-    "@itablera/wrap-common": "git+ssh://git@github.com:Itablera/wrap-common.git#main",
+    "@itablera/wrap-command": "^0.7.23",
+    "@itablera/wrap-common": "^0.7.26",
     "axios": "^1.4.0",
     "compression": "^1.7.4",
     "connect-timeout": "^1.9.0",
