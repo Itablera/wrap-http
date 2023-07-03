@@ -1,6 +1,6 @@
 {
   "name": "@itablera/http-server",
-  "version": "0.7.14",
+  "version": "0.7.15",
   "description": "Wrapper for a HTTP server",
   "main": "dist/index",
   "types": "dist/index",
